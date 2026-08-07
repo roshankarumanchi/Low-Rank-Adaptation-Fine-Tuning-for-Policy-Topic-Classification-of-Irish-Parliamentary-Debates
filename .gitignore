@@ -1,0 +1,28 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (too large for GitHub)
+*.bin
+*.safetensors
+*.pt
+*.pth
+lora_model/
+fine_tuned_model/
+
+# Colab specific
+*.ipynb_checkpoints
